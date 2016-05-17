@@ -8,9 +8,11 @@ public class Interfaz_matricula extends javax.swing.JInternalFrame {
 
     control_matricula ctr;
     private Object [][] tabla;
+    int ctr1;
     public Interfaz_matricula(control_matricula ctr) {
         initComponents();
         this.ctr = ctr;
+        ctr1=0;
         jTextField_codigomateria.setEnabled(false);
         jTextField_nombres.setText(ctr.ingresa_nombre_estudiante());
         jTextField_apellidos.setText(ctr.ingresa_apellido_estudiante());

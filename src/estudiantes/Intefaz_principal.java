@@ -29,7 +29,7 @@ public class Intefaz_principal extends javax.swing.JFrame {
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
 
-        jDesktopPane1.setBackground(new java.awt.Color(0, 51, 51));
+        jDesktopPane1.setBackground(new java.awt.Color(0, 153, 51));
         jDesktopPane1.setBorder(new javax.swing.border.SoftBevelBorder(javax.swing.border.BevelBorder.RAISED));
 
         jButton1.setFont(new java.awt.Font("Tahoma", 1, 12)); // NOI18N

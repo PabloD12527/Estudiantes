@@ -29,7 +29,7 @@ public class Interfaz_materia extends javax.swing.JInternalFrame {
         jButton2 = new javax.swing.JButton();
         jComboBox_ih = new javax.swing.JComboBox();
 
-        setBackground(new java.awt.Color(0, 51, 51));
+        setBackground(new java.awt.Color(0, 0, 255));
         setIconifiable(true);
         setMaximizable(true);
         setResizable(true);
@@ -41,6 +41,12 @@ public class Interfaz_materia extends javax.swing.JInternalFrame {
         jLabel2.setFont(new java.awt.Font("Tahoma", 1, 14)); // NOI18N
         jLabel2.setForeground(new java.awt.Color(153, 0, 0));
         jLabel2.setText("Intensidad horaria");
+
+        jTextField_nommateria.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jTextField_nommateriaActionPerformed(evt);
+            }
+        });
 
         jButton_registrar.setForeground(new java.awt.Color(153, 0, 0));
         jButton_registrar.setText("Registrar");
@@ -144,6 +150,10 @@ public class Interfaz_materia extends javax.swing.JInternalFrame {
           JOptionPane.showMessageDialog(this, "Digite los campos obligatorios");  
         }
     }//GEN-LAST:event_jButton_registrarActionPerformed
+
+    private void jTextField_nommateriaActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jTextField_nommateriaActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_jTextField_nommateriaActionPerformed
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
     private javax.swing.JButton jButton2;
